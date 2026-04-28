@@ -20,26 +20,11 @@ El **Shell Sort** es un algoritmo de ordenamiento que generaliza el insertion so
 ## 📂 Estructura del Repositorio
 
 ```
-shell-sort/
-├── README.md                              # Este archivo
-├── src/
-│   ├── shell_sort.py                     # Implementación básica con ejemplos
-│   └── shell_sort_mejorado.py            # Versión mejorada con CLI y logging
-├── tests/
-│   └── test_shell_sort.py               # Suite de 35+ pruebas unitarias
-├── docs/
-│   ├── ANALISIS_COMPLEJIDAD.md          # Análisis detallado de complejidad
-│   ├── CASOS_DE_USO.md                  # Cuándo y dónde usar Shell Sort
-│   ├── COMPARATIVA_ALGORITMOS.md        # Comparación con otros métodos
-│   ├── EXPLICACION_ALGORITMO.md         # Documentación educativa
-│   └── GUIA_DESARROLLO.md               # Guía de desarrollo y mejoras
-├── examples/
-│   ├── ejemplo_basico.py                # Ejemplo simple de uso
-│   ├── ejemplo_archivo.py               # Ejemplo con lectura de archivo
-│   └── ejemplo_comparacion.py           # Ejemplo de comparación de rendimiento
-└── data/
-    ├── datos_muestra.txt                # Archivo de datos de ejemplo
-    └── generar_datos.py                 # Script para generar datos
+shell-sort-proyecto/
+│
+├── shell.py
+├── datos.txt
+└── README.md
 ```
 ## ⚙️ Funcionamiento del algoritmo
 
@@ -482,49 +467,31 @@ python src/shell_sort_mejorado.py -e datos.txt -o asc -v
 
 ## 📈 Resultados
 
-### Pruebas Ejecutadas
+### Discusión de resultados
 
 ```
-✓ 35/35 pruebas unitarias pasan
-✓ 100% cobertura de funciones
-✓ 0 errores o warnings
-✓ Tiempo de ejecución: <0.5s
+
+En pruebas realizadas con 50,000 elementos:
+
+El algoritmo mostró un rendimiento significativamente superior a métodos como Bubble Sort.
+La reducción progresiva de gaps permitió disminuir el número de comparaciones.
+El tiempo de ejecución se mantuvo estable incluso en escenarios grandes.
 ```
 
-### Rendimiento en Diferentes Tamaños
 
-| Tamaño | Insertion | Shell | QuickSort |
-|--------|-----------|-------|-----------|
-| 100 | 1ms | 1ms | 1ms |
-| 1,000 | 100ms | 5ms | 2ms |
-| 10,000 | 10s | 50ms | 10ms |
-| 50,000 | >60s | 350ms | 40ms |
 
 ---
+## 🧩 Conclusión
 
-## 🔧 Desarrollo
+Shell Sort representa un equilibrio entre simplicidad y eficiencia.
+Aunque no supera a algoritmos avanzados como Quick Sort, sigue siendo una opción viable cuando se requiere:
 
-### Cómo Contribuir
+Bajo consumo de memoria
+Implementación sencilla
+Mejor rendimiento que algoritmos básicos
 
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
+Este proyecto demuestra su utilidad práctica en el procesamiento de datos de tamaño medio.
 
-### Mejoras Futuras
-
-- [ ] Implementar variantes de gap sequences (Knuth, Sedgewick)
-- [ ] Agregar visualización gráfica del algoritmo
-- [ ] Crear interfaz web interactiva
-- [ ] Optimizar para paralelización
-- [ ] Agregar benchmark comparativo automático
-
----
-
-## 📄 Licencia
-
-Este proyecto está bajo la licencia MIT. Ver archivo `LICENSE` para más detalles.
 
 ---
 
@@ -551,19 +518,3 @@ Para preguntas o sugerencias, contactar a los integrantes del equipo:
 
 ---
 
-## 📋 Checklist Final
-
-- [x] Código con comentarios claros
-- [x] Análisis de complejidad O(n log n)
-- [x] Casos de uso documentados
-- [x] Comparativa teórica con otro método
-- [x] Pruebas unitarias (35+)
-- [x] Ejemplos de uso
-- [x] Documentación completa
-- [x] README.md profesional
-
----
-
-**Última actualización:** Abril 2026  
-**Versión:** 2.0  
-**Estado:** ✅ Listo para presentación
