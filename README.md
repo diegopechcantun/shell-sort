@@ -178,33 +178,6 @@ Esto permite observar el comportamiento real del algoritmo en condiciones cercan
 | Cualquier | Estable req. | MergeSort | Garantiza O(n log n) |
 | Búsqueda | N/A | Hash Table | Mejor para búsqueda |
 
-### 🌍 Ejemplos Reales de Uso
-
-1. **Base de datos pequeña**
-   ```python
-   # Ordenar empleados por salario (1,000-10,000 registros)
-   empleados.sort(key=lambda e: e.salario)  # Shell Sort internamente
-   ```
-
-2. **Procesamiento de imágenes**
-   ```python
-   # Ordenar píxeles por intensidad
-   shell_sort(pixeles, orden_ascendiente=True)
-   ```
-
-3. **Sistema de calificaciones**
-   ```python
-   # Ordenar estudiantes por calificación final
-   estudiantes = shell_sort(estudiantes)
-   ```
-
-4. **Análisis de datos pequeños**
-   ```python
-   # Análisis de 50,000 registros de ventas
-   ventas.sort()  # Rápido con Shell Sort
-   ```
-
----
 
 ## 🔄 Comparativa Teórica: Shell Sort vs Insertion Sort
 
@@ -354,21 +327,7 @@ Pero la ganancia en velocidad (8.3x) lo compensa en la mayoría de casos.
 
 ---
 
-## 🔬 Metodología de Pruebas
 
-### Pruebas Unitarias (35+ casos)
-
-```bash
-python tests/test_shell_sort.py
-```
-
-**Cobertura:**
-- ✓ Casos básicos (vacío, 1 elemento, 2 elementos)
-- ✓ Orden ascendente y descendente
-- ✓ Números negativos, duplicados, iguales
-- ✓ Validación de integridad
-- ✓ Pruebas de rendimiento
-- ✓ Comparación con sorted() nativo
 
 **Resultado esperado:**
 ```
@@ -398,72 +357,9 @@ Resultados:
 
 ---
 
-## 📚 Documentación Incluida
-
-### En el Repositorio
-
-1. **[ANALISIS_COMPLEJIDAD.md](docs/ANALISIS_COMPLEJIDAD.md)**
-   - Análisis matemático detallado
-   - Demostraciones de O(n log n)
-   - Comparativas gráficas
-
-2. **[CASOS_DE_USO.md](docs/CASOS_DE_USO.md)**
-   - Cuándo usar Shell Sort
-   - Cuándo no usar
-   - Ejemplos prácticos
-
-3. **[COMPARATIVA_ALGORITMOS.md](docs/COMPARATIVA_ALGORITMOS.md)**
-   - Comparación con todos los métodos
-   - Tablas y gráficas
-   - Recomendaciones
-
-4. **[EXPLICACION_ALGORITMO.md](docs/EXPLICACION_ALGORITMO.md)**
-   - Paso a paso del ejemplo UNAM
-   - Pseudocódigo
-   - Variantes del algoritmo
 
 ---
 
-## 💻 Ejemplos de Uso
-
-### Uso Básico
-
-```python
-from src.shell_sort import shell_sort
-
-# Arreglo a ordenar
-numeros = [64, 34, 25, 12, 22, 11, 90]
-
-# Ordenamiento ascendente
-resultado = shell_sort(numeros)
-print(resultado)  # [11, 12, 22, 25, 34, 64, 90]
-```
-
-### Uso Avanzado
-
-```python
-from src.shell_sort_mejorado import main, leer_archivo, guardar_resultado
-
-# Leer archivo, ordenar, guardar
-numeros, ok = leer_archivo('datos.txt')
-shell_sort(numeros, orden_ascendiente=True)
-guardar_resultado(numeros, 'resultado.txt')
-```
-
-### Línea de Comandos
-
-```bash
-# Ordenamiento ascendente
-python src/shell_sort_mejorado.py -e datos.txt -o asc
-
-# Ordenamiento descendente con archivo personalizado
-python src/shell_sort_mejorado.py -e entrada.txt -o desc -s salida.txt
-
-# Modo verbose (información detallada)
-python src/shell_sort_mejorado.py -e datos.txt -o asc -v
-```
-
----
 
 ## 📈 Resultados
 
@@ -477,8 +373,6 @@ El algoritmo mostró un rendimiento significativamente superior a métodos como 
 La reducción progresiva de gaps permitió disminuir el número de comparaciones.
 El tiempo de ejecución se mantuvo estable incluso en escenarios grandes.
 ```
-
-
 
 ---
 ## 🧩 Conclusión
