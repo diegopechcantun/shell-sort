@@ -1,13 +1,7 @@
 # Shell Sort - Proyecto Académico de Estructura de Datos
-
-![Shell Sort](https://img.shields.io/badge/Algoritmo-Shell%20Sort-blue)
-![Python](https://img.shields.io/badge/Language-Python%203.6%2B-green)
-![Status](https://img.shields.io/badge/Status-Completo-brightgreen)
-![Tests](https://img.shields.io/badge/Tests-35%2B%20Unitarias-success)
-
 ---
 
-## 📝 Descripción
+## 📝 Introducción
 
 Implementación completa del algoritmo **Shell Sort** (Ordenamiento por Método Shell) como parte del curso de **Estructura de Datos** en Ingeniería en Sistemas Computacionales.
 
@@ -47,45 +41,19 @@ shell-sort/
     ├── datos_muestra.txt                # Archivo de datos de ejemplo
     └── generar_datos.py                 # Script para generar datos
 ```
+## ⚙️ Funcionamiento del algoritmo
 
----
+El algoritmo trabaja con una secuencia de incrementos:
 
-## 🚀 Inicio Rápido
+n/2 → n/4 → n/8 → ... → 1
 
-### Requisitos
-- Python 3.6 o superior
-- pip (gestor de paquetes de Python)
+En cada iteración:
 
-### Instalación
+Se divide el arreglo en sublistas separadas por el gap.
+Cada sublista se ordena mediante inserción.
+El gap se reduce progresivamente.
 
-```bash
-# Clonar el repositorio
-git clone https://github.com/tu-usuario/shell-sort.git
-cd shell-sort
-
-# (Opcional) Crear entorno virtual
-python -m venv venv
-source venv/bin/activate  # En Windows: venv\Scripts\activate
-
-# No hay dependencias externas, pero se recomienda:
-pip install -r requirements.txt  # (vacío, solo para referencia)
-```
-
-### Uso Básico
-
-```bash
-# Modo interactivo simple
-python src/shell_sort.py
-
-# Modo automatizado (recomendado)
-python src/shell_sort_mejorado.py --entrada datos.txt --orden asc
-
-# Ver ayuda
-python src/shell_sort_mejorado.py --help
-
-# Ejecutar pruebas
-python tests/test_shell_sort.py
-```
+Esto permite que los elementos se acerquen a su posición final más rápidamente que en métodos tradicionales.
 
 ---
 
@@ -159,6 +127,17 @@ Mejora: ~3,125x más rápido
 ```
 
 ---
+
+## 📊 Evaluación experimental
+
+El programa implementado permite:
+
+Ordenar hasta 50,000 números
+Medir el tiempo de ejecución
+Validar automáticamente el orden
+Exportar resultados a archivo
+
+Esto permite observar el comportamiento real del algoritmo en condiciones cercanas a uso práctico.
 
 ## 💼 Casos de Uso
 
