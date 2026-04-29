@@ -54,7 +54,7 @@ shell-sort-proyecto/
 
 | Caso | Complejidad | Descripción |
 |------|-------------|-------------|
-| **Mejor caso** | **O(n)** | Cuando el arreglo está casi ordenado. |
+| **Mejor caso** | **O(n log n)** | Cuando el arreglo está casi ordenado. |
 | **Caso promedio** | **O(n log n)** | Depende de la secuencia de intervalos. |
 | **Peor caso** | **O(n²)** |Se presenta cuando los datos están en el orden más desfavorable. |
 
