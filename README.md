@@ -5,7 +5,7 @@
 
 El método de ordenamiento Shell consiste en dividir el arreglo (o la lista de elementos) en intervalos (o bloques) de varios elementos para organizarlos después por medio del ordenamiento de inserción directa. El proceso se repite, pero con intervalos cada vez más pequeños, de tal manera que al final, el ordenamiento se haga en un intervalo de una sola posición.
 
-Este proyecto es una implementación educativa del **algoritmo Shell Sort**, un método de ordenamiento utilizando secuencias de "gaps" (brechas) decrecientes. El programa lee 50,000 números de un archivo de texto y los ordena de forma ascendente o descendente, mostrando el tiempo de ejecución en milisegundos.
+Este proyecto implementa el algoritmo Shell Sort en Python. El programa lee un archivo de texto con 50,000 números enteros y los ordena de forma ascendente o descendente, midiendo el tiempo de ejecución en segundos y milisegundo
 
 
 ---
@@ -25,8 +25,24 @@ shell-sort-proyecto/
 │
 ├── shell.py
 ├── datos.txt
+├── resultado.txt
 └── README.md
 ```
+---
+## Video demostrativo
+
+### Video subido a YouTube 
+
+[![Ver demostración del proyecto](https://img.shields.io/badge/▶%20Ver%20Video-Demostración-red?style=for-the-badge&logo=youtube)](https://youtu.be/zhwEwv4vp0Q?si=GXvyq2lQT65SHxvd)
+
+
+
+
+
+
+
+
+
 ## Funcionamiento del algoritmo
 
 El algoritmo trabaja con una secuencia de incrementos:
