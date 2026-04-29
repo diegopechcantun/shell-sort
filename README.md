@@ -61,13 +61,6 @@ Con la secuencia de Knuth:
   - Costo total: O(n log n) en caso promedio
 ```
 
-### Complejidad Espacial
-
-- **O(1)** - Ordenamiento **in-place** (en el mismo lugar)
-- No requiere memoria adicional proporcional al tamaño de entrada
-- Solo utiliza variables de control (i, j, gap, temp)
-
-
 
 ## Casos de Uso
 
