@@ -42,7 +42,7 @@ shell-sort-proyecto/
 
 [![Ver demostración del proyecto](https://img.shields.io/badge/▶%20Ver%20Video-Explicación-red?style=for-the-badge&logo=youtube)](https://youtu.be/zhwEwv4vp0Q?si=GXvyq2lQT65SHxvd)
 
-
+---
 ## Análisis de Complejidad
 
 ### Complejidad Temporal
@@ -78,14 +78,14 @@ shell-sort-proyecto/
 
 ####  **Complejidad**
 
-```
+
 | Característica      |   Shell Sort      |   Bubble Sort     |
 |---------------------|-------------------|-------------------|
 | Complejidad         | ~O(n^1.3)         | O(n²)             |
 | Comparaciones       | Reducidas         | Muy altas         |
 | Intercambios        | Eficientes        | Ineficientes      |
 | Uso real            | Práctico          | Educativo         |
-```
+
 
 #### **Análisis**
 
@@ -116,7 +116,7 @@ Shell Sort vs Quick Sort
 | Sensibilidad          | Baja        | Alta (pivote)  |
 
 
-**Análisis técnico:**
+**Análisis**
 
 Quick Sort es generalmente el algoritmo más rápido en la práctica debido a su complejidad promedio O(n log n). Sin embargo, su rendimiento depende de una buena elección del pivote.
 
