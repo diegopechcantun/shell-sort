@@ -17,10 +17,10 @@ Este proyecto implementa el algoritmo Shell Sort en Python. El programa lee un a
 - **Loreto Huerta Filiberto**
 ---
 
-**Proyecto Académico**
+## Proyecto Académico
 - Institución: Instituto Tecnológico de Mérida
-- Curso: Estructura de Datos
-- Programa: Ingeniería en Sistemas Computacionales
+- Materia: Estructura de Datos
+- Carrera: Ingeniería en Sistemas Computacionales
 
 
 ---
