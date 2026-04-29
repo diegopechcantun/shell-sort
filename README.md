@@ -53,22 +53,7 @@ shell-sort-proyecto/
 | **Caso promedio** | **O(n log n)** | Depende de la secuencia de intervalos |
 | **Peor caso** | **O(n²)** | Con la secuencia original de Shell n/2, n/4,... |
 
-### Análisis Detallado de O(n log n) promedio
-
-La complejidad promedio de **O(n log n)** se logra cuando se utiliza una buena secuencia de intervalos como la de **Knuth**: (3^k - 1)/2.
-
-**Demostración:**
-```
-Para cada gap h:
-  - Hacemos insertion sort en subarreglos de tamaño n/h
-  - Costo: O((n/h)²) por subarreglo, pero optimizado
-
-Con la secuencia de Knuth:
-  - Número de gaps: O(log n)
-  - Costo total: O(n log n) en caso promedio
-```
-
-
+---
 ## Casos de Uso
 
 ### Cuándo usar Shell Sort
