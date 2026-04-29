@@ -67,6 +67,7 @@ shell-sort-proyecto/
 
 - Se manejan grandes volúmenes de datos (como mas de 50,000 datos).
 - Se requiere máxima eficiencia garantizada.
+- Cuando se necesita un rendimiento predecible y consistente, ya que su eficiencia depende de la      secuencia de incrementos (gaps).
 - Se necesita un algoritmo estable.
 ---
 
