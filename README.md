@@ -15,6 +15,13 @@ Este proyecto implementa el algoritmo Shell Sort en Python. El programa lee un a
 - **Balam Castillo Pedro**
 - **Pech Cantun Diego**
 - **Loreto Huerta Filiberto**
+---
+
+**Proyecto Académico**
+- Institución: Instituto Tecnológico de Mérida
+- Curso: Estructura de Datos
+- Programa: Ingeniería en Sistemas Computacionales
+
 
 ---
 
@@ -184,20 +191,6 @@ Mejor rendimiento que algoritmos básicos
 
 Este proyecto demuestra su utilidad práctica en el procesamiento de datos de tamaño medio.
 
-
----
-
-## Créditos
-
-**Proyecto Académico**
-- Institución: Instituto Tecnológico de Mérida
-- Curso: Estructura de Datos
-- Programa: Ingeniería en Sistemas Computacionales
-
-**Referencias:**
-- UAPA-CUAED UNAM - Material educativo
-- Cormen, Leiserson, Rivest, Stein - "Introduction to Algorithms"
-- Sedgewick, Wayne - "Algorithms (4th Edition)"
 
 ---
 
