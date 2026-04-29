@@ -1,4 +1,4 @@
-# Shell Sort - Proyecto Académico de Estructura de Datos
+# Shell Sort - Proyecto de Estructura de Datos
 ---
 
 ## 📝 Introducción
