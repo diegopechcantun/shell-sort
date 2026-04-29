@@ -104,7 +104,7 @@ Para 50,000 datos:
 
 ## Comparativa Teórica: Shell Sort vs Quick Sort
 
-```
+
 Shell Sort vs Quick Sort
 
 | Característica         | Shell Sort   | Quick Sort     |
@@ -114,7 +114,7 @@ Shell Sort vs Quick Sort
 | Rendimiento real      | Bueno       | Muy alto       |
 | Localidad de cache    | Alta        | Media          |
 | Sensibilidad          | Baja        | Alta (pivote)  |
-```
+
 
 **Análisis técnico:**
 
