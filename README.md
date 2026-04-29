@@ -126,18 +126,6 @@ Shell Sort:
 
 
 ---
-## Conclusión
 
-Shell Sort representa un equilibrio entre simplicidad y eficiencia.
-Aunque no supera a algoritmos avanzados como Quick Sort, sigue siendo una opción viable cuando se requiere:
-
-Bajo consumo de memoria
-Implementación sencilla
-Mejor rendimiento que algoritmos básicos
-
-Este proyecto demuestra su utilidad práctica en el procesamiento de datos de tamaño medio.
-
-
----
 
 
