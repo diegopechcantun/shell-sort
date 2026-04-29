@@ -111,17 +111,6 @@ Con la secuencia de Knuth:
    - Usar: B-Trees, Hash Tables
    - Razón: No es apropiado para búsqueda
 
-### Tabla de Recomendaciones
-
-| Tamaño | Tipo de Datos | Recomendación | Razón |
-|--------|---------------|---------------|-------|
-| < 50 | Cualquier | Insertion Sort | Muy rápido, simple |
-| 50-1K | Cualquier | Shell Sort | Buen balance |
-| 1K-10K | Aleatorio | Shell Sort | Eficiente |
-| 1K-10K | Casi ordenado | Shell Sort | Muy rápido (O(n)) |
-| 10K-1M | Cualquier | QuickSort | Mejor promedio |
-| Cualquier | Estable req. | MergeSort | Garantiza O(n log n) |
-| Búsqueda | N/A | Hash Table | Mejor para búsqueda |
 
 
 ## Comparativa Teórica: Shell Sort vs Insertion Sort
@@ -161,19 +150,6 @@ permitiendo intercambios de elementos distantes, no solo adyacentes.
 └─────────────────────┴────────────────┴─────────────────┘
 ```
 
-#### 3. **Rendimiento Práctico**
-
-Para 50,000 números aleatorios:
-
-```
-Insertion Sort:      ~2.5 segundos    (2,500,000,000 ops)
-Shell Sort:          ~0.3 segundos    (800,000 ops)
-Mejora:              8.3x más rápido
-
-Ratio: O(n²) / O(n log n) = 50000² / (50000 * log₂ 50000)
-                          = 2,500,000,000 / 750,000
-                          ≈ 3,333x en operaciones
-```
 
 
 #### 4. **Conclusión Teórica**
@@ -189,22 +165,6 @@ Shell Sort es "Insertion Sort mejorado" porque:
 
 La desventaja única: NO es estable (a diferencia de Insertion Sort)
 Pero la ganancia en velocidad (8.3x) lo compensa en la mayoría de casos.
-```
-
----
-
-
-## Resultados
-
-### Discusión de resultados
-
-```
-
-En pruebas realizadas con 50,000 elementos:
-
-El algoritmo mostró un rendimiento significativamente superior a métodos como Bubble Sort.
-La reducción progresiva de gaps permitió disminuir el número de comparaciones.
-El tiempo de ejecución se mantuvo estable incluso en escenarios grandes.
 ```
 
 ---
@@ -239,9 +199,9 @@ Este proyecto demuestra su utilidad práctica en el procesamiento de datos de ta
 ## Contacto
 
 Para preguntas o sugerencias, contactar a los integrantes del equipo:
-- Balam Castillo Pedro
-- Pech Cantun Diego
-- Loreto Huerta Filiberto
+- Balam Castillo Pedro - 
+- Pech Cantun Diego - 
+- Loreto Huerta Filiberto - 
 
 ---
 
