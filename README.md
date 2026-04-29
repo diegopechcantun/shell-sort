@@ -36,7 +36,7 @@ shell-sort-proyecto/
 └── README.md
 ```
 ---
-## Video demostrativo
+## Video explicativo del codigo
 
 ### Video subido a YouTube 
 
