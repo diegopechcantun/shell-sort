@@ -1,6 +1,20 @@
 # Shell Sort - Proyecto de Estructura de Datos
 ---
 
+## Integrantes
+
+- **Balam Castillo Pedro**
+- **Pech Cantun Diego**
+- **Loreto Huerta Filiberto**
+---
+
+## Proyecto Académico
+- Institución: Instituto Tecnológico de Mérida
+- Materia: Estructura de Datos
+- Carrera: Ingeniería en Sistemas Computacionales
+
+---
+
 ## Descripción  
 Este proyecto implementa el algoritmo Shell Sort en Python. El programa lee un archivo de texto con 50,000 números enteros y los ordena de forma ascendente o descendente, midiendo el tiempo de ejecución en segundos y milisegundo
 
@@ -14,20 +28,6 @@ El método de ordenamiento Shell consiste en dividir el arreglo (o la lista de e
 
 
 ---
-
-## Integrantes
-
-- **Balam Castillo Pedro**
-- **Pech Cantun Diego**
-- **Loreto Huerta Filiberto**
----
-
-## Proyecto Académico
-- Institución: Instituto Tecnológico de Mérida
-- Materia: Estructura de Datos
-- Carrera: Ingeniería en Sistemas Computacionales
-
-
 ---
 
 ## Estructura del Repositorio
