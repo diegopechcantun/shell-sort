@@ -94,9 +94,6 @@ Bubble Sort compara elementos adyacentes repetidamente, lo que genera una gran c
 
 Shell Sort mejora esto al comparar elementos distantes, reduciendo drásticamente la cantidad de iteraciones necesarias.
 
-Para 50,000 datos:
-- Bubble Sort: tiempo excesivo (no viable)
-- Shell Sort: ~0.4 segundos
   
 
 ---
