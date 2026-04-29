@@ -80,11 +80,6 @@ shell-sort-proyecto/
 ## Comparativa Teórica: Shell Sort vs Bubble Sort
 
 
-### Análisis Comparativo Detallado
-
-####  **Complejidad**
-
-
 | Característica      |   Shell Sort      |   Bubble Sort     |
 |---------------------|-------------------|-------------------|
 | Complejidad         | O(n²)             | O(n²)             |
@@ -108,14 +103,12 @@ Shell Sort mejora esto al comparar elementos distantes, reduciendo drásticament
 ## Comparativa Teórica: Shell Sort vs Quick Sort
 
 
-Shell Sort vs Quick Sort
-
 | Característica        | Shell Sort  | Quick Sort     |
 |-----------------------|-------------|----------------|
 | Complejidad promedio  |  O(n log n) | O(n log n)     |
 | Peor caso             | O(n^2)      | O(n^2)         |
 | Rendimiento real      | Bueno       | Muy alto       |
-| Localidad de cache    | Alta        | Media          |
+| Localidad de cache    | Alta        | Alta           |
 | Sensibilidad          | Baja        | Alta (pivote)  |
 
 
