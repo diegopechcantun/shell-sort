@@ -141,12 +141,4 @@ Este proyecto demuestra su utilidad práctica en el procesamiento de datos de ta
 
 ---
 
-## Contacto
-
-Para preguntas o sugerencias, contactar a los integrantes del equipo:
-- Balam Castillo Pedro - 
-- Pech Cantun Diego - 
-- Loreto Huerta Filiberto - 
-
----
 
