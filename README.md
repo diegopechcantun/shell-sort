@@ -58,16 +58,16 @@ shell-sort-proyecto/
 
 ### Cuándo usar Shell Sort
 
-** Cuando se trabaja con arreglos medianos (no tan grandes como para usar algoritmos más complejos).**
-** Cuando los datos están parcialmente ordenados.**
-** Cuando se necesita un algoritmo simple de implementar pero más eficiente que métodos básicos como Bubble Sort.**
-** Cuando se requiere bajo uso de memoria (ya que no usa memoria extra).**
+- Cuando se trabaja con arreglos medianos (no tan grandes como para usar algoritmos más complejos).
+- Cuando los datos están parcialmente ordenados.
+- Cuando se necesita un algoritmo simple de implementar pero más eficiente que métodos básicos como Bubble Sort.
+- Cuando se requiere bajo uso de memoria (ya que no usa memoria extra).
 
 ### Cuándo NO usar Shell Sort
 
-** Se manejan grandes volúmenes de datos (como 50,000+ elementos).**
-** Se requiere máxima eficiencia garantizada.**
-** Se necesita un algoritmo estable.**
+- Se manejan grandes volúmenes de datos (como mas de 50,000 datos).
+- Se requiere máxima eficiencia garantizada.
+- Se necesita un algoritmo estable.
 ---
 
 
