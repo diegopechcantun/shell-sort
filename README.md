@@ -230,87 +230,8 @@ Ratio: O(n²) / O(n log n) = 50000² / (50000 * log₂ 50000)
                           ≈ 3,333x en operaciones
 ```
 
-#### 4. **Comparación Visual**
 
-```python
-# INSERTION SORT
-def insertion_sort(arr):
-    for i in range(1, len(arr)):
-        key = arr[i]
-        j = i - 1
-        # Solo compara con el anterior (gap = 1)
-        while j >= 0 and arr[j] > key:
-            arr[j + 1] = arr[j]
-            j -= 1
-        arr[j + 1] = key
-    return arr
-
-# SHELL SORT
-def shell_sort(arr):
-    n = len(arr)
-    gap = n // 2
-    # Múltiples pasadas con diferentes gaps
-    while gap > 0:
-        for i in range(gap, n):
-            key = arr[i]
-            j = i
-            # Compara con elementos separados por 'gap'
-            while j >= gap and arr[j - gap] > key:
-                arr[j] = arr[j - gap]
-                j -= gap
-            arr[j] = key
-        gap //= 2
-    return arr
-```
-
-#### 5. **Secuencia de Ejecución**
-
-**Insertion Sort:**
-```
-[5, 2, 8, 1, 9]
-Pasada 1: [2, 5, 8, 1, 9]          (gap=1)
-Pasada 2: [2, 5, 8, 1, 9]          (gap=1)
-Pasada 3: [1, 2, 5, 8, 9]          (gap=1)
-Pasada 4: [1, 2, 5, 8, 9]          (gap=1)
-```
-
-**Shell Sort:**
-```
-[5, 2, 8, 1, 9]
-Pasada 1: [1, 2, 8, 5, 9]          (gap=2)
-Pasada 2: [1, 2, 5, 8, 9]          (gap=1)
-```
-
-#### 6. **Estabilidad**
-
-```
-Original:     [(3,a), (3,b), (1,c), (2,d)]
-
-Insertion Sort (ESTABLE):
-Resultado:    [(1,c), (2,d), (3,a), (3,b)]
-              Nota: (3,a) viene antes que (3,b) ✓
-
-Shell Sort (NO ESTABLE):
-Resultado:    [(1,c), (2,d), (3,b), (3,a)]
-              Nota: (3,b) viene antes que (3,a) ✗
-```
-
-#### 7. **Tabla Comparativa Completa**
-
-| Aspecto | Insertion | Shell | Ventaja |
-|---------|-----------|-------|---------|
-| **Implementación** | Trivial | Moderado | Insertion |
-| **Mejor Caso** | O(n) | O(n) | Igual |
-| **Caso Promedio** | O(n²) | O(n log n) | Shell  |
-| **Peor Caso** | O(n²) | O(n²) | Igual |
-| **Espacio** | O(1) | O(1) | Igual |
-| **Estable** | Sí | No | Insertion |
-| **Adaptativo** | Sí | Parcial | Insertion |
-| **En-lugar** | Sí | Sí | Igual |
-| **Cache friendly** | Sí | Menos | Insertion |
-| **Para 50K nums** | ~2.5s | ~0.3s | Shell 8.3x  |
-
-#### 8. **Conclusión Teórica**
+#### 4. **Conclusión Teórica**
 
 ```
 Shell Sort es "Insertion Sort mejorado" porque:
@@ -324,39 +245,6 @@ Shell Sort es "Insertion Sort mejorado" porque:
 La desventaja única: NO es estable (a diferencia de Insertion Sort)
 Pero la ganancia en velocidad (8.3x) lo compensa en la mayoría de casos.
 ```
-
----
-
-
-
-**Resultado esperado:**
-```
-Ran 35 tests in 0.234s
-OK
-
-Tests ejecutados: 35
-✓ Exitosos: 35
-✗ Fallidos: 0
- ¡TODAS LAS PRUEBAS PASARON!
-```
-
-### Análisis de Rendimiento
-
-```python
-# Pruebas realizadas con:
-- Procesador: Intel Core i7
-- Python: 3.8+
-- Tamaño de prueba: 50,000 números
-
-Resultados:
-- Shell Sort: 0.34 segundos
-- Insertion Sort: 2.5 segundos
-- QuickSort: 0.15 segundos
-- MergeSort: 0.20 segundos
-```
-
----
-
 
 ---
 
