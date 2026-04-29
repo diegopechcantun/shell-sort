@@ -135,6 +135,38 @@ Para 50,000 datos:
   
 
 ---
+## Comparativa Teórica: Shell Sort vs Quick Sort
+
+Shell Sort vs Quick Sort
+
+| Característica        | Shell Sort         | Quick Sort        |
+
+|---------------------|-------------------|-------------------|
+
+| Complejidad promedio| ~O(n^1.3)         | O(n log n)        |
+
+| Peor caso           | O(n²)             | O(n²)             |
+
+| Rendimiento real    | Bueno             | Muy alto          |
+
+| Localidad de cache  | Alta              | Media             |
+
+| Sensibilidad        | Baja              | Alta (pivote)     |
+
+**Análisis técnico:**
+
+Quick Sort es generalmente el algoritmo más rápido en la práctica debido a su complejidad promedio O(n log n). Sin embargo, su rendimiento depende de una buena elección del pivote.
+
+Shell Sort:
+
+- No depende de decisiones dinámicas (como pivote)
+
+- Es más predecible en ejecución
+
+- Menos propenso a degradarse por casos específicos
+
+
+---
 ## Conclusión
 
 Shell Sort representa un equilibrio entre simplicidad y eficiencia.
