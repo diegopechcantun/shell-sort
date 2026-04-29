@@ -58,45 +58,16 @@ shell-sort-proyecto/
 
 ### Cuándo usar Shell Sort
 
-1. **Arreglos de tamaño medio** (1,000 - 50,000 elementos)
-   - Ejemplo: Ordenar registros de una base de datos pequeña
-   - Ventaja: Mejor que insertion sort, más simple que quicksort
-
-2. **Cuando se requiere ordenamiento in-place**
-   - Ejemplo: Dispositivos con memoria limitada
-   - Ventaja: No necesita memoria adicional O(n)
-
-3. **Datos parcialmente ordenados**
-   - Ejemplo: Lista de estudiantes por calificación que recibe actualizaciones
-   - Ventaja: Complejidad cercana a O(n) si está casi ordenado
-
-4. **Implementaciones educativas**
-   - Ejemplo: Enseñanza de algoritmos de ordenamiento
-   - Ventaja: Más complejo que bubble sort, más simple que quicksort
-
-5. **Cuando la simplicidad es importante**
-   - Ejemplo: Lenguajes de programación limitados
-   - Ventaja: Implementación simple (~20 líneas)
+1. **Cuando se trabaja con arreglos medianos (no tan grandes como para usar algoritmos más complejos).
+2. **Cuando los datos están parcialmente ordenados.
+3. **Cuando se necesita un algoritmo simple de implementar pero más eficiente que métodos básicos como Bubble Sort.
+4. **Cuando se requiere bajo uso de memoria (ya que no usa memoria extra).
 
 ### Cuándo NO usar Shell Sort
 
-1. **Arreglos muy grandes** (>100,000 elementos)
-   - Usar: QuickSort, MergeSort, HeapSort
-   - Razón: Peor complejidad que O(n log n) en algunos casos
-
-2. **Cuando se requiere estabilidad**
-   - Usar: MergeSort, BubbleSort
-   - Razón: Shell Sort no preserva orden relativo de elementos iguales
-
-3. **Datos completamente aleatorios**
-   - Usar: QuickSort
-   - Razón: QuickSort es más eficiente en este caso
-
-4. **Búsqueda frecuente en datos (online)**
-   - Usar: B-Trees, Hash Tables
-   - Razón: No es apropiado para búsqueda
-
-
+1. **Se manejan grandes volúmenes de datos (como 50,000+ elementos).
+2. **Se requiere máxima eficiencia garantizada.
+3. **Se necesita un algoritmo estable.
 ---
 
 
