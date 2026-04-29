@@ -105,6 +105,8 @@ Con la secuencia de Knuth:
    - Razón: No es apropiado para búsqueda
 
 
+---
+
 
 ## Comparativa Teórica: Shell Sort vs Bubble Sort
 
@@ -135,6 +137,8 @@ Para 50,000 datos:
   
 
 ---
+
+
 ## Comparativa Teórica: Shell Sort vs Quick Sort
 
 ```
