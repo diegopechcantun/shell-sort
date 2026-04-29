@@ -1,11 +1,12 @@
 # Shell Sort - Proyecto de Estructura de Datos
 ---
 
-## Introducción
+## Descripcion 
 
-Implementación completa del algoritmo **Shell Sort** (Ordenamiento por Método Shell) como parte del curso de **Estructura de Datos** en Ingeniería en Sistemas Computacionales.
+El método de ordenamiento Shell consiste en dividir el arreglo (o la lista de elementos) en intervalos (o bloques) de varios elementos para organizarlos después por medio del ordenamiento de inserción directa. El proceso se repite, pero con intervalos cada vez más pequeños, de tal manera que al final, el ordenamiento se haga en un intervalo de una sola posición.
 
-El **Shell Sort** es un algoritmo de ordenamiento que generaliza el insertion sort al permitir el intercambio de elementos lejanos entre sí, lo que lo hace más eficiente para arreglos de tamaño medio.
+Este proyecto es una implementación educativa del **algoritmo Shell Sort**, un método de ordenamiento utilizando secuencias de "gaps" (brechas) decrecientes. El programa lee 50,000 números de un archivo de texto y los ordena de forma ascendente o descendente, mostrando el tiempo de ejecución en milisegundos.
+
 
 ---
 
