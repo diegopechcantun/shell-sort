@@ -106,58 +106,32 @@ Con la secuencia de Knuth:
 
 
 
-## Comparativa Teórica: Shell Sort vs Insertion Sort
+## Comparativa Teórica: Shell Sort vs Bubble Sort
 
-### Resumen Ejecutivo
-
-```
-Shell Sort es una GENERALIZACIÓN de Insertion Sort que logra O(n log n)
-permitiendo intercambios de elementos distantes, no solo adyacentes.
-```
 
 ### Análisis Comparativo Detallado
 
-#### 1. **Concepto Fundamental**
-
-**Insertion Sort (Básico):**
-- Solo compara/intercambia elementos **adyacentes**
-- Cada elemento se mueve una posición a la vez
-- Muy simple pero lento para arrays grandes
-
-**Shell Sort (Mejorado):**
-- Compara/intercambia elementos **separados por una distancia (gap)**
-- El gap disminuye con cada pasada
-- Más rápido al permitir "saltos" grandes inicialmente
-
-#### 2. **Complejidad**
+####  **Complejidad**
 
 ```
-┌─────────────────────┬────────────────┬─────────────────┐
-│ Métrica             │ Insertion Sort  │ Shell Sort      │
-├─────────────────────┼────────────────┼─────────────────┤
-│ Mejor caso          │ O(n)           │ O(n)            │
-│ Caso promedio       │ O(n²)          │ O(n log n)      │
-│ Peor caso           │ O(n²)          │ O(n²)           │
-│ Espacio             │ O(1)           │ O(1)            │
-│ Estable             │ Sí ✓           │ No ✗            │
-└─────────────────────┴────────────────┴─────────────────┘
+| Característica      |   Shell Sort      |   Bubble Sort     |
+|---------------------|-------------------|-------------------|
+| Complejidad         | ~O(n^1.3)         | O(n²)             |
+| Comparaciones       | Reducidas         | Muy altas         |
+| Intercambios        | Eficientes        | Ineficientes      |
+| Uso real            | Práctico          | Educativo         |
 ```
 
-
-
-#### 4. **Conclusión Teórica**
+#### **Análisis**
 
 ```
-Shell Sort es "Insertion Sort mejorado" porque:
+Bubble Sort compara elementos adyacentes repetidamente, lo que genera una gran cantidad de operaciones redundantes.
 
-1. Utiliza el mismo concepto: comparar e intercambiar
-2. Pero lo generaliza permitiendo gaps variables
-3. Esto reduce significativamente el número de movimientos
-4. En lugar de O(n²) = 2,500,000,000 comparaciones
-   Solo hace O(n log n) = 750,000 comparaciones
+Shell Sort mejora esto al comparar elementos distantes, reduciendo drásticamente la cantidad de iteraciones necesarias.
 
-La desventaja única: NO es estable (a diferencia de Insertion Sort)
-Pero la ganancia en velocidad (8.3x) lo compensa en la mayoría de casos.
+Para 50,000 datos:
+- Bubble Sort: tiempo excesivo (no viable)
+- Shell Sort: ~0.4 segundos
 ```
 
 ---
