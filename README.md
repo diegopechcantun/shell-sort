@@ -49,8 +49,8 @@ shell-sort-proyecto/
 
 | Caso | Complejidad | Descripción |
 |------|-------------|-------------|
-| **Mejor caso** | **O(n)** | Cuando el arreglo está casi ordenado |
-| **Caso promedio** | **O(n log n)** | Depende de la secuencia de intervalos |
+| **Mejor caso** | **O(n)** | Cuando el arreglo está casi ordenado. |
+| **Caso promedio** | **O(n log n)** | Depende de la secuencia de intervalos. |
 | **Peor caso** | **O(n²)** |Se presenta cuando los datos están en el orden más desfavorable. |
 
 ---
@@ -81,7 +81,7 @@ shell-sort-proyecto/
 
 | Característica      |   Shell Sort      |   Bubble Sort     |
 |---------------------|-------------------|-------------------|
-| Complejidad         | ~O(n^1.3)         | O(n²)             |
+| Complejidad         | O(n²)             | O(n²)             |
 | Comparaciones       | Reducidas         | Muy altas         |
 | Intercambios        | Eficientes        | Ineficientes      |
 | Uso real            | Práctico          | Educativo         |
@@ -107,9 +107,9 @@ Para 50,000 datos:
 
 Shell Sort vs Quick Sort
 
-| Característica         | Shell Sort   | Quick Sort     |
+| Característica        | Shell Sort  | Quick Sort     |
 |-----------------------|-------------|----------------|
-| Complejidad promedio  | ~O(n^1.3)   | O(n log n)     |
+| Complejidad promedio  |  O(n log n) | O(n log n)     |
 | Peor caso             | O(n^2)      | O(n^2)         |
 | Rendimiento real      | Bueno       | Muy alto       |
 | Localidad de cache    | Alta        | Media          |
