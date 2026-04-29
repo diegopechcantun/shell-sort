@@ -1,7 +1,7 @@
 # Shell Sort - Proyecto de Estructura de Datos
 ---
 
-## 📝 Introducción
+## Introducción
 
 Implementación completa del algoritmo **Shell Sort** (Ordenamiento por Método Shell) como parte del curso de **Estructura de Datos** en Ingeniería en Sistemas Computacionales.
 
@@ -9,7 +9,7 @@ El **Shell Sort** es un algoritmo de ordenamiento que generaliza el insertion so
 
 ---
 
-## 👥 Integrantes
+## Integrantes
 
 - **Balam Castillo Pedro**
 - **Pech Cantun Diego**
@@ -17,7 +17,7 @@ El **Shell Sort** es un algoritmo de ordenamiento que generaliza el insertion so
 
 ---
 
-## 📂 Estructura del Repositorio
+## Estructura del Repositorio
 
 ```
 shell-sort-proyecto/
@@ -26,7 +26,7 @@ shell-sort-proyecto/
 ├── datos.txt
 └── README.md
 ```
-## ⚙️ Funcionamiento del algoritmo
+## Funcionamiento del algoritmo
 
 El algoritmo trabaja con una secuencia de incrementos:
 
@@ -42,7 +42,7 @@ Esto permite que los elementos se acerquen a su posición final más rápidament
 
 ---
 
-## 📊 Análisis de Complejidad
+## Análisis de Complejidad
 
 ### Complejidad Temporal
 
@@ -113,7 +113,7 @@ Mejora: ~3,125x más rápido
 
 ---
 
-## 📊 Evaluación experimental
+## Evaluación experimental
 
 El programa implementado permite:
 
@@ -124,9 +124,9 @@ Exportar resultados a archivo
 
 Esto permite observar el comportamiento real del algoritmo en condiciones cercanas a uso práctico.
 
-## 💼 Casos de Uso
+## Casos de Uso
 
-### ✅ Cuándo usar Shell Sort
+### Cuándo usar Shell Sort
 
 1. **Arreglos de tamaño medio** (1,000 - 50,000 elementos)
    - Ejemplo: Ordenar registros de una base de datos pequeña
@@ -148,7 +148,7 @@ Esto permite observar el comportamiento real del algoritmo en condiciones cercan
    - Ejemplo: Lenguajes de programación limitados
    - Ventaja: Implementación simple (~20 líneas)
 
-### ❌ Cuándo NO usar Shell Sort
+### Cuándo NO usar Shell Sort
 
 1. **Arreglos muy grandes** (>100,000 elementos)
    - Usar: QuickSort, MergeSort, HeapSort
@@ -166,7 +166,7 @@ Esto permite observar el comportamiento real del algoritmo en condiciones cercan
    - Usar: B-Trees, Hash Tables
    - Razón: No es apropiado para búsqueda
 
-### 📋 Tabla de Recomendaciones
+### Tabla de Recomendaciones
 
 | Tamaño | Tipo de Datos | Recomendación | Razón |
 |--------|---------------|---------------|-------|
@@ -179,7 +179,7 @@ Esto permite observar el comportamiento real del algoritmo en condiciones cercan
 | Búsqueda | N/A | Hash Table | Mejor para búsqueda |
 
 
-## 🔄 Comparativa Teórica: Shell Sort vs Insertion Sort
+## Comparativa Teórica: Shell Sort vs Insertion Sort
 
 ### Resumen Ejecutivo
 
@@ -301,14 +301,14 @@ Resultado:    [(1,c), (2,d), (3,b), (3,a)]
 |---------|-----------|-------|---------|
 | **Implementación** | Trivial | Moderado | Insertion |
 | **Mejor Caso** | O(n) | O(n) | Igual |
-| **Caso Promedio** | O(n²) | O(n log n) | Shell 🏆 |
+| **Caso Promedio** | O(n²) | O(n log n) | Shell  |
 | **Peor Caso** | O(n²) | O(n²) | Igual |
 | **Espacio** | O(1) | O(1) | Igual |
 | **Estable** | Sí | No | Insertion |
 | **Adaptativo** | Sí | Parcial | Insertion |
 | **En-lugar** | Sí | Sí | Igual |
 | **Cache friendly** | Sí | Menos | Insertion |
-| **Para 50K nums** | ~2.5s | ~0.3s | Shell 8.3x 🏆 |
+| **Para 50K nums** | ~2.5s | ~0.3s | Shell 8.3x  |
 
 #### 8. **Conclusión Teórica**
 
@@ -337,7 +337,7 @@ OK
 Tests ejecutados: 35
 ✓ Exitosos: 35
 ✗ Fallidos: 0
-🎉 ¡TODAS LAS PRUEBAS PASARON!
+ ¡TODAS LAS PRUEBAS PASARON!
 ```
 
 ### Análisis de Rendimiento
@@ -361,7 +361,7 @@ Resultados:
 ---
 
 
-## 📈 Resultados
+## Resultados
 
 ### Discusión de resultados
 
@@ -375,7 +375,7 @@ El tiempo de ejecución se mantuvo estable incluso en escenarios grandes.
 ```
 
 ---
-## 🧩 Conclusión
+## Conclusión
 
 Shell Sort representa un equilibrio entre simplicidad y eficiencia.
 Aunque no supera a algoritmos avanzados como Quick Sort, sigue siendo una opción viable cuando se requiere:
@@ -389,7 +389,7 @@ Este proyecto demuestra su utilidad práctica en el procesamiento de datos de ta
 
 ---
 
-## 👨‍💼 Créditos
+## Créditos
 
 **Proyecto Académico**
 - Institución: Instituto Tecnológico de Mérida
@@ -403,7 +403,7 @@ Este proyecto demuestra su utilidad práctica en el procesamiento de datos de ta
 
 ---
 
-## 📞 Contacto
+## Contacto
 
 Para preguntas o sugerencias, contactar a los integrantes del equipo:
 - Balam Castillo Pedro
