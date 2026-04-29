@@ -51,7 +51,7 @@ shell-sort-proyecto/
 |------|-------------|-------------|
 | **Mejor caso** | **O(n)** | Cuando el arreglo está casi ordenado |
 | **Caso promedio** | **O(n log n)** | Depende de la secuencia de intervalos |
-| **Peor caso** | **O(n²)** | Con la secuencia original de Shell n/2, n/4,... |
+| **Peor caso** | **O(n²)** |Se presenta cuando los datos están en el orden más desfavorable. |
 
 ---
 ## Casos de Uso
