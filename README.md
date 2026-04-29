@@ -36,29 +36,6 @@ shell-sort-proyecto/
 [![Ver demostración del proyecto](https://img.shields.io/badge/▶%20Ver%20Video-Explicación-red?style=for-the-badge&logo=youtube)](https://youtu.be/zhwEwv4vp0Q?si=GXvyq2lQT65SHxvd)
 
 
-
-
-
-
-
-
-
-## Funcionamiento del algoritmo
-
-El algoritmo trabaja con una secuencia de incrementos:
-
-n/2 → n/4 → n/8 → ... → 1
-
-En cada iteración:
-
-Se divide el arreglo en sublistas separadas por el gap.
-Cada sublista se ordena mediante inserción.
-El gap se reduce progresivamente.
-
-Esto permite que los elementos se acerquen a su posición final más rápidamente que en métodos tradicionales.
-
----
-
 ## Análisis de Complejidad
 
 ### Complejidad Temporal
@@ -90,56 +67,7 @@ Con la secuencia de Knuth:
 - No requiere memoria adicional proporcional al tamaño de entrada
 - Solo utiliza variables de control (i, j, gap, temp)
 
-### Gráfica de Complejidad
 
-```
-Tiempo de Ejecución (ms)
-
-1000 ┤
-     ├─ O(n²) - Bubble Sort (peor caso)
-     │
- 500 ├─ O(n log n) - Shell Sort (promedio)
-     │     /
- 250 ├─  /
-     │ /─
- 100 ├/
-     ├
-  50 ├─ O(n) - Mejor caso Shell Sort
-  25 ├
-  10 ├
-   5 ├
-   1 ├────────────────────────
-     └─────────────────────────────
-     1K   10K   50K   100K   1M
-     (Número de elementos)
-```
-
-### Complejidad por Operación
-
-```python
-# Operación principal: Comparaciones
-Mejor caso (casi ordenado):  O(n)      - Pocos desplazamientos
-Caso promedio:               O(n log n) - Balance entre gaps
-Peor caso:                   O(n²)      - Muchos desplazamientos
-
-# Cálculo detallado para 50,000 números:
-Insertion sort simple:  Aprox. 2,500,000,000 comparaciones
-Shell Sort (promedio):  Aprox. 800,000 comparaciones
-Mejora: ~3,125x más rápido
-```
-
----
-
-## Evaluación experimental
-
-El programa implementado permite:
-
-Ordenar hasta 50,000 números
-Medir el tiempo de ejecución
-Validar automáticamente el orden
-Exportar resultados a archivo
-
-Esto permite observar el comportamiento real del algoritmo en condiciones cercanas a uso práctico.
 
 ## Casos de Uso
 
