@@ -107,19 +107,13 @@ Para 50,000 datos:
 ```
 Shell Sort vs Quick Sort
 
-| Característica        | Shell Sort         | Quick Sort        |
-
-|---------------------|-------------------|-------------------|
-
-| Complejidad promedio| ~O(n^1.3)         | O(n log n)        |
-
-| Peor caso           | O(n²)             | O(n²)             |
-
-| Rendimiento real    | Bueno             | Muy alto          |
-
-| Localidad de cache  | Alta              | Media             |
-
-| Sensibilidad        | Baja              | Alta (pivote)     |
+| Característica         | Shell Sort   | Quick Sort     |
+|-----------------------|-------------|----------------|
+| Complejidad promedio  | ~O(n^1.3)   | O(n log n)     |
+| Peor caso             | O(n^2)      | O(n^2)         |
+| Rendimiento real      | Bueno       | Muy alto       |
+| Localidad de cache    | Alta        | Media          |
+| Sensibilidad          | Baja        | Alta (pivote)  |
 ```
 
 **Análisis técnico:**
