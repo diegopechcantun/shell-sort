@@ -33,7 +33,7 @@ shell-sort-proyecto/
 
 ### Video subido a YouTube 
 
-[![Ver demostración del proyecto](https://img.shields.io/badge/▶%20Ver%20Video-Demostración-red?style=for-the-badge&logo=youtube)](https://youtu.be/zhwEwv4vp0Q?si=GXvyq2lQT65SHxvd)
+[![Ver demostración del proyecto](https://img.shields.io/badge/▶%20Ver%20Video-Explicación y código-red?style=for-the-badge&logo=youtube)](https://youtu.be/zhwEwv4vp0Q?si=GXvyq2lQT65SHxvd)
 
 
 
