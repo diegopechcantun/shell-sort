@@ -64,6 +64,14 @@ El rendimiento del algoritmo Shell Sort depende principalmente de la secuencia d
 | **Caso promedio** | **O(n log n)** | Depende de la secuencia de intervalos. |
 | **Peor caso** | **O(n²)** |Se presenta cuando los datos están en el orden más desfavorable. |
 
+### Complejidad del espacio
+
+Shell Sort es un algoritmo de ordenamiento in-place, lo que significa que no requiere memoria auxiliar adicional para realizar el ordenamiento.
+
+Por esta razón, su complejidad espacial es de O(1), ya que el algoritmo opera directamente sobre el arreglo original utilizando una cantidad constante de memoria.
+
+
+
 ---
 ## Casos de Uso
 
