@@ -24,7 +24,11 @@ Este proyecto implementa el algoritmo Shell Sort en Python. El programa lee un a
 
 ## ¿Qué es?
 
-El método de ordenamiento Shell consiste en dividir el arreglo (o la lista de elementos) en intervalos (o bloques) de varios elementos para organizarlos después por medio del ordenamiento de inserción directa. El proceso se repite, pero con intervalos cada vez más pequeños, de tal manera que al final, el ordenamiento se haga en un intervalo de una sola posición.
+El método de ordenamiento Shell Sort, propuesto por Donald Shell en 1959, es una variante del método de inserción directa (Insertion Sort). El algoritmo consiste en comparar y ordenar elementos que se encuentran separados por una cierta distancia llamada "gap". 
+
+En lugar de trabajar con elementos consecutivos como en el ordenamiento por inserción directa, Shell Sort comienza comparando elementos lejanos entre sí, lo que permite mover valores grandes o pequeños más rápidamente hacia su posición correcta.
+
+Este proceso se repite reduciendo progresivamente el valor del gap, hasta que finalmente se realiza un ordenamiento con gap igual a 1, equivalente al método de inserción directa, pero sobre un arreglo parcialmente ordenado, lo que mejora su eficiencia.
 
 
 ---
